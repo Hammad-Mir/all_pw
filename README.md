@@ -1,1 +1,9 @@
-# all_pw
+# ALL-Net: Acute Lymphoblastic Leukemia Detection using CNN utilizing the Patch-wise Concept
+
+Acute Lymphoblastic Leukemia (ALL) is a cancer that affects the blood cells, particularly lymphoid line. The development of large number of immature lymphocytes is a common characteristic of ALL. Extensive researches have been done to detect these types of cancerous cells by utilizing several-state-of-the-art classification methods. However, early stage detection of ALL is still a challenge. Hence, there is still scope of improving the performance at early stage.
+
+In this paper, a novel approach has been proposed for the detection of cancerous cells by employing Convolutional Neural Networks (CNN) utilizing the patch-based concept. In addition, use of cross-entropy loss has been made for optimizing and improving the performance. The network has been trained and validated using the ISBI challenge data-set with standard qualitative and quantitative performance measures.
+
+The results obtained suggest that the proposed architecture classifies the data with more precision and accuracy. The classical architectures fail mainly due to high invariance in the dataset and thus being incapable of effective feature selection and classification. The main advantage of this model is that it is computationally efficient compared to the much complex architectures. The model also continues to grow effectively as the epochs are increased.
+
+The results can further be improved by combining various similar models in an ensemble technique. Also, auto-encoders can be applied for weight matrix initialization. Further, additional image processing techniques may also be explored for data preparation. Standardizing the image acquisition and pre-processing standards can, in effect, make the model universally applicable.
